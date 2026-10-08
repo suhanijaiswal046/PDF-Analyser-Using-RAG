@@ -1,0 +1,42 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Virtual Environment
+myenv/
+.venv/
+venv/
+env/
+
+# Environment Variables / API Keys
+.env
+.env.*
+!.env.example
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Python Tool Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Model Files
+*.pkl
+*.joblib
